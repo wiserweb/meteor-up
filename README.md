@@ -1,5 +1,15 @@
 # meteor-up [![Stories in Ready](https://badge.waffle.io/kadirahq/meteor-up.svg?label=ready&title=Ready)](http://waffle.io/kadirahq/meteor-up)
 
+Unofficial Meteor-Up 2.0
+
+Jan 15, 2017 Changes:
+- Allow cache deploy without rebuilding, speeds up multi-server deployments. (https://github.com/kadirahq/meteor-up/pull/408)
+- Support for Let's Encrypt (https://github.com/kadirahq/meteor-up/pull/337)
+
+-More to come. Do not use in production. This is a development version.
+
+The rest of this document remains the same.
+
 #### Production Quality Meteor Deployments
 
 Meteor Up is a command line tool that allows you to deploy any [Meteor](http://meteor.com) app to your own server. It currently supports Ubuntu.
